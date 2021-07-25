@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "134824735070",
+    "project_id": "accompany-a303b",
+    "storage_bucket": "accompany-a303b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134824735070:android:6a9dca053858f7f37edfcf",
+        "android_client_info": {
+          "package_name": "com.example.accompany"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134824735070-24p4boj4go0cglt177u010nfjq7806nj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.accompany",
+            "certificate_hash": "13e7cd84ed51775a44cc8125ca3c26ab3d46628b"
+          }
+        },
+        {
+          "client_id": "134824735070-la402ecsveivfjhdbg7p4rs82239m3dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD28mSy_4TwmHMbloZR6t5bWMYVIjBwQPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134824735070-la402ecsveivfjhdbg7p4rs82239m3dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
