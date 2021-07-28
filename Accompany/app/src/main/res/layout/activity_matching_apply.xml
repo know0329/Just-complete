@@ -7,7 +7,7 @@
     tools:context=".matchingApply">
 
     <EditText
-        android:id="@+id/editTextTextMultiLine12"
+        android:id="@+id/birthday"
         android:layout_width="396dp"
         android:layout_height="42dp"
         android:ems="10"
@@ -21,9 +21,10 @@
         app:layout_constraintVertical_bias="0.775" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/DateButton"
         android:layout_width="102dp"
         android:layout_height="40dp"
+        android:onClick="showDatePicker"
         android:text="날짜 검색"
         app:backgroundTint="#a0ddf9"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,15 +48,16 @@
         app:layout_constraintVertical_bias="0.484" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine11"
+        android:id="@+id/dateView"
         android:layout_width="396dp"
         android:layout_height="42dp"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
+        android:onClick="onDateSet"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.661" />
@@ -89,7 +91,7 @@
         app:layout_constraintVertical_bias="0.542" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine7"
+        android:id="@+id/phonenumber"
         android:layout_width="396dp"
         android:layout_height="42dp"
         android:ems="10"
@@ -276,18 +278,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.09" />
-
-    <TextView
-        android:id="@+id/aaaaa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.823" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
