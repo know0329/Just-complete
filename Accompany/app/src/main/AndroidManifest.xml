@@ -12,16 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Accompany"
         android:usesCleartextTraffic="true">
-        <activity android:name=".matchingSurvey"></activity>
-        <activity android:name=".test" />
-        <activity android:name=".DaumWebViewActivity" />
-        <activity android:name=".matchingApply" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".signin.view.SignInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".matchingSurvey" />
+        <activity android:name=".test" />
+        <activity android:name=".DaumWebViewActivity" />
+        <activity android:name=".matchingApply" />
+        <activity android:name=".MainActivity">
+
         </activity>
     </application>
 
