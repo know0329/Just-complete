@@ -12,17 +12,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Accompany"
         android:usesCleartextTraffic="true">
-        <activity android:name=".matchingScreen"></activity>
+        <activity android:name=".PlusProtector_Activity"></activity>
+        <activity android:name=".Reservation_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="withreservation.page.link"
+                    android:pathPattern="/protector"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReservationList_Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Signup_Activity" />
+        <activity android:name=".matchingScreen" />
         <activity android:name=".DaumWebViewActivity2" />
         <activity android:name=".matchingSurvey" />
         <activity android:name=".DaumWebViewActivity" />
         <activity android:name=".matchingApply" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
+        <activity android:name=".Login_Activity"/>
+        <activity android:name=".Activity_Splash">
+             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
         </activity>
     </application>
 
